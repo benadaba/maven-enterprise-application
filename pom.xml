@@ -12,11 +12,15 @@
     <module>MavenEnterpriseApp-web</module>
   </modules>
   
-  <properties>
-	<!-- versions -->
-	<sonar.host.url>http://localhost:9000/</sonar.host.url>
-	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-	<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+   <properties>
+        <!-- versions -->
+
+           <sonar.host.url>http://3.8.211.24:9000/</sonar.host.url>
+                <sonar.login>admin</sonar.login>
+                <sonar.password>admin</sonar.password>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 </properties>
+	
   
 </project>
